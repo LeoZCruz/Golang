@@ -31,4 +31,30 @@ func main() {
 	y := 4.44
 	z := float64(x) + y
 	fmt.Println("Suma: ", z)
+
+	result := x + x
+	//Suma
+	fmt.Println("Resultado: ", result)
+	//Resta
+	fmt.Println("Resta: ", y-z)
+	//Multiplicacion
+	fmt.Println("Multiplicacion: ", x*int(y))
+	//Division
+	fmt.Println("Division: ", x/int(y))
+	//Modulo
+	modulo := x % int(y)
+	fmt.Println("Modulo: ", modulo)
+	//Incremental
+	x++
+	fmt.Println("Incremental: ", x)
+
+	//Declaracion de Variables
+	var radio float64 = 14
+	//Calculo de Area de un Circulo
+	fmt.Print("El area del circulo es: ", pi*radio*radio, "\n")
+	//claculo de Area de un Trapecio
+	var baseMayor float64 = 10
+	var baseMenor float64 = 5
+	var alturaTrapecio float64 = 7
+	fmt.Print("El area del trapecio es: ", (baseMayor+baseMenor)*alturaTrapecio/2, "\n")
 }
