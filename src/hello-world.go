@@ -27,5 +27,8 @@ func main() {
 	areaCuadrado := baseCuadrado * baseCuadrado
 
 	fmt.Print("El area del cuadrado es: ", areaCuadrado, "\n")
-
+	x := 10
+	y := 4.44
+	z := float64(x) + y
+	fmt.Println("Suma: ", z)
 }
